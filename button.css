@@ -1,0 +1,24 @@
+#viewbtn{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+
+  transform: translate(-50%, -50%); 
+    background: #c8d2d9;
+
+    background-image: linear-gradient(to bottom, #c8d2d9, #c8d2d9);
+
+    border-radius: 10px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  #viewbtn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
